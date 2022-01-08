@@ -26,7 +26,7 @@ function LoginScreen() {
 
   const onClose = () => {
     setIsOpen(false)
-    dispatch(userLogin("9d3ec4cce310c8f0cf9756c6a953da1d7d23da18d21e2345f8fafd61eba345fb"))
+    dispatch(userLogin(""))
   }
 
   return (
